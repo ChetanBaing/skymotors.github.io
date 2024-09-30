@@ -1,0 +1,533 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+@media(max-width:768px) {
+
+    .banner,
+    .footer {
+        width: 100%;
+        height: auto;
+        float: left;
+        text-align: center;
+    }
+
+    .logo {
+        text-align: center;
+        padding-left: 25px;
+    }
+
+    .menu ul li {
+        width: 100% !important;
+        height: 40px;
+        text-align: center;
+    }
+
+    .menu_bg {
+        width: 100%;
+        height: 300px !important;
+        float: left;
+        text-align: center;
+    }
+
+    video {
+        width: 100%;
+        height: auto !important;
+        float: left;
+    }
+
+    .target img {
+        width: 100% !important;
+        height: auto;
+        float: left;
+
+    }
+
+    .case_card {
+        width: 100%;
+        height: auto !important;
+    }
+
+    .footer_bg {
+        width: 100%;
+        height: 100% !important;
+        float: left;
+        text-align: center;
+    }
+
+    .footer form{
+        margin: 0% 0% 15% 5%!important;
+    }
+    .footer_2 ul li {
+        padding: 10px !important;
+    }
+}
+
+.menu_bg {
+    width: 100%;
+    height: 70px;
+    float: left;
+    background: #003466;
+}
+
+.menu ul li {
+    float: left;
+    padding: 0 5px;
+}
+
+.menu ul li a {
+    font-size: 18px;
+    font-family: "Sora", sans-serif;
+    color: #fff;
+    padding: 10px 20px;
+    line-height: 40px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.menu ul li a:hover {
+    color: #fd9a67;
+}
+
+.menu ul li a:before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 5%;
+    float: left;
+    background: #fd9a67;
+    transition: 0.5s ease;
+    z-index: -1;
+    right: 50%;
+    bottom: 0;
+}
+
+.menu ul li a:hover:before {
+    width: 50%;
+}
+
+
+.menu ul li a:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 5%;
+    float: left;
+    background: #fd9a67;
+    transition: 0.5s ease;
+    z-index: -1;
+    left: 50%;
+    bottom: 0;
+}
+
+.menu ul li a:hover:after {
+    width: 50%;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.banner video {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.about h3 {
+    cursor: pointer;
+}
+
+.target {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.target h1 {
+    font-size: 40px;
+    font-family: "Teko", sans-serif;
+    color: #003466;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.target h1:hover {
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+.target h1:before {
+    content: '';
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    float: left;
+    background: #003466;
+    left: 0%;
+    top: -9%;
+    transition: 0.5s ease-out;
+    z-index: -1;
+}
+
+.target h1:hover:before {
+    width: 60%;
+}
+
+.target p {
+    text-align: justify;
+    font-size: 16px;
+    font-family: "Sora", sans-serif;
+}
+
+.target a {
+    font-size: 16px;
+    font-family: "Sora", sans-serif;
+    color: #fff;
+    background: #003466;
+    padding: 10px 25px;
+    border: 2px solid #003466;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+
+.target a:hover {
+    background: #fff;
+    color: #003466;
+    border: 2px solid #003466;
+}
+
+.target img {
+    width: 600px;
+    height: 350px;
+    float: left;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+
+.target img:hover {
+    box-shadow: 2PX 2px 5px;
+}
+
+
+.about h3 {
+    font-size: 35px;
+    font-family: "Teko", sans-serif;
+    color: #003466;
+    position: relative;
+}
+
+.about h3:hover {
+    color: #fff;
+}
+
+.about h3:before {
+    content: '';
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    float: left;
+    background: #003466;
+    left: 0%;
+    top: -9%;
+    transition: 0.3s ease-out;
+    z-index: -1;
+}
+
+.about h3:hover:before {
+    width: 25%;
+}
+
+.about p {
+    font-size: 16px;
+    font-family: "Sora", sans-serif;
+    text-align: justify;
+}
+
+.about a {
+    font-size: 16px;
+    font-family: "Sora", sans-serif;
+    color: #fff;
+    background: #003466;
+    padding: 10px 25px;
+    border: 2px solid #003466;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+
+.about a:hover {
+    background: #fff;
+    color: #003466;
+    border: 2px solid #003466;
+}
+
+
+.gal img {
+    width: 100%;
+    height: 500px;
+    float: left;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+.gal img:hover {
+    box-shadow: 2PX 2px 5px;
+}
+
+
+.gal_head h2 {
+    font-size: 35px;
+    font-family: "Teko", sans-serif;
+    color: #003466;
+    position: relative;
+    cursor: pointer;
+}
+
+.gal_head h2:hover {
+    color: #fff;
+}
+
+.gal_head h2:before {
+    content: '';
+    position: absolute;
+    width: 0.5%;
+    height: 100%;
+    float: left;
+    background: #003466;
+    left: 0%;
+    top: -9%;
+    transition: 0.3s ease-out;
+    z-index: -1;
+}
+
+.gal_head h2:hover:before {
+    width: 15%;
+}
+
+.case_bg {
+    width: 100%;
+    height: auto;
+    background: #003466;
+    float: left;
+}
+
+.case h2 {
+    font-size: 35px;
+    font-family: "Teko", sans-serif;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.case h3 {
+    font-size: 24px;
+    font-family: "Teko", sans-serif;
+    color: #fd9a67;
+    cursor: pointer;
+}
+
+.case p {
+    font-size: 18px;
+    font-family: "Sora", sans-serif;
+    color: #fff;
+    text-align: justify;
+}
+
+.case_card {
+    width: 100%;
+    height: 300px;
+    float: left;
+    border: 2px solid #fd9a67;
+    border-radius: 10px;
+    padding: 25px;
+    background: #fd9a67;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.case_card:hover {
+    background: #fff;
+    border: 2px solid #fd9a67;
+}
+
+.case_card img {
+    width: 10%;
+    height: auto;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.case_card h3 {
+    font-size: 24px;
+    font-family: "Teko", sans-serif;
+    color: #003466;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.case_card p {
+    font-size: 18px;
+    font-family: "Sora", sans-serif;
+    color: #fff;
+    text-align: justify;
+    transition: 0.5s ease;
+}
+
+.case_card:hover p {
+    color: #003466;
+}
+
+.footer_bg {
+    width: 100%;
+    height: 375px;
+    float: left;
+    background: #003466;
+}
+
+.footer img {
+    width: 40%;
+    height: auto;
+    float: left;
+    /* margin: 0 128px; */
+}
+
+.footer p {
+    font-size: 16px;
+    font-family: "Sora", sans-serif;
+    color: #fff;
+    text-align: justify;
+}
+
+.footer h3 {
+    font-size: 24px;
+    font-family: "Teko", sans-serif;
+    color: #fd9a67;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer ul li {
+    margin: 10px 0;
+}
+
+
+.footer ul li a {
+    font-size: 18px;
+    font-family: "Sora", sans-serif;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.footer ul li a:hover {
+    color: #fd9a67;
+}
+
+.footer ul li a:before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 5%;
+    float: left;
+    background: #fd9a67;
+    transition: 0.5s ease;
+    z-index: -1;
+    right: 50%;
+    bottom: 0;
+}
+
+.footer ul li a:hover:before {
+    width: 50%;
+}
+
+
+.footer ul li a:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 5%;
+    float: left;
+    background: #fd9a67;
+    transition: 0.5s ease;
+    z-index: -1;
+    left: 50%;
+    bottom: 0;
+}
+
+.footer ul li a:hover:after {
+    width: 50%;
+}
+
+
+.footer form input {
+    width: 70%;
+    height: 35px;
+    float: left;
+    border: none;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    padding-left: 10px;
+}
+
+.footer form input[type="submit"] {
+    width: 20%;
+    height: 35px;
+    float: left;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+    font-family: "Sora", sans-serif;
+    color: #003466;
+    transition: 0.5s ease;
+    font-weight: 500;
+    padding-right: 15px;
+}
+
+.footer form input[type="submit"]:hover {
+    background: #fd9a67;
+}
+
+
+.footer_2 h3 {
+    font-size: 24px;
+    font-family: "Teko", sans-serif;
+    color: #fd9a67;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 75px;
+}
+
+.footer_2 ul li {
+    float: left;
+}
+
+.footer_2 ul li a img {
+    width: 40%;
+    height: auto;
+    float: left;
+    transition: 0.5s ease;
+}
+
+.footer_2 ul li a img:hover {
+    transform: translateY(-10px);
+}
+
+/* ----------------------------------------back to top------------------------------ */
